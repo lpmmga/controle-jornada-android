@@ -153,7 +153,7 @@ public class MainActivity extends android.app.Activity {
                 ints=pairTotal(intStarts,intEnds);
 
                 int entryMin=parseTime(entry);
-                long base = entryMin + normal + lunch + ints;
+                int base = entryMin + normal + lunch + ints;
                 scheduleOne(context, REQUEST_10, 10, base + 110);
                 scheduleOne(context, REQUEST_5, 5, base + 115);
             } catch (Exception ignored) {}
